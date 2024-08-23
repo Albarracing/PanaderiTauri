@@ -1,0 +1,17 @@
+{
+  "name": "panaderia",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tauri build",
+    "tauri": "tauri dev",
+    "dev": "cd frontend/AdminPanaderia && npm run dev"
+  },
+  "devDependencies": {
+    "@tauri-apps/api": "^1.6.0",
+    "@tauri-apps/cli": "^1.6.0",
+    "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "node": "^22.7.0"
+  }
+}
